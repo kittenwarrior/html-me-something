@@ -1,0 +1,95 @@
+body {
+        font: 24px Helvetica;
+        background: #999999;
+    }
+
+main {
+        /*min-height: 800px;*/
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-flow: column;
+    }
+
+main > article {
+        margin: 4px;
+        padding: 5px;
+        /*border: 1px solid #cccc33;*/
+        /*border-radius: 7pt;*/
+        /*background: #dddd88;*/
+        flex: 3 1 60%;
+        order: 2;
+    }
+
+main > nav {
+        margin: 0px;
+        padding: 5px;
+        border: 1px solid #8888bb;
+        border-radius: 0pt;
+        background: #ccccff;
+        flex: 1 6 20%;
+        order: 1;
+        text-align: center;
+    }
+
+main > aside {
+        margin: 4px;
+        padding: 5px;
+        border: 1px solid #8888bb;
+        border-radius: 7pt;
+        background: #ccccff;
+        flex: 1 6 20%;
+        order: 3;
+    }
+
+header, footer {
+        display: block;
+        margin: 4px;
+        padding: 5px;
+        /*min-height: 100px;*/
+        border: 1px solid #eebb55;
+        border-radius: 0pt;
+        background: #ffeebb;
+    }
+#title {
+        display: block;
+        margin: 1px;
+        padding: 5px;
+        min-height: 3em;
+        border: 1px solid #eebb55;
+        border-radius: 0pt;
+        background: #ffeebb;
+        text-align: center;
+    }
+nav > a:link {
+        color: red;
+        text-decoration: none;
+}
+nav > a:visited {
+        color: red;
+        text-decoration: none;
+}
+nav > a:hover {
+        color: red;
+        text-decoration: none;
+}
+nav > a:active {
+        color: red;
+        text-decoration: none;
+}
+article > a:link {
+        color: red;
+        text-decoration: none;
+}
+article > a:visited {
+        color: red;
+        text-decoration: none;
+}
+article > a:hover {
+        color: red;
+        text-decoration: none;
+}
+article > a:active {
+        color: red;
+        text-decoration: none;
+}
