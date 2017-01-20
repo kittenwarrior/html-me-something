@@ -145,3 +145,19 @@ footer {
 footer > p {
     color: #e9ece5;
 }
+article > p > a:link {
+        color: #3b3a36;
+        text-decoration: none;
+}
+article > p > a:visited {
+        color: #3b3a36;
+        text-decoration: none;
+}
+article > p > a:hover {
+        color: #b3c2bf;
+        text-decoration: none;
+}
+article > p > a:active {
+        color: #3b3a36;
+        text-decoration: none;
+}
