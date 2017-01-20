@@ -1,6 +1,8 @@
 body {
-        font: 24px Helvetica;
-        background: #999999;
+        /*font: 24px Helvetica;*/
+        background: #e9ece5;
+        max-width: 75%;
+        margin: 0 auto;
     }
 
 main {
@@ -19,14 +21,15 @@ main > article {
         /*background: #dddd88;*/
         flex: 3 1 60%;
         order: 2;
+        text-align: center;
     }
 
 main > nav {
         margin: 0px;
         padding: 5px;
-        border: 1px solid #8888bb;
+        /*border: 1px solid #8888bb;*/
         border-radius: 0pt;
-        background: #ccccff;
+        background: #b3c2bf;
         flex: 1 6 20%;
         order: 1;
         text-align: center;
@@ -42,12 +45,12 @@ main > aside {
         order: 3;
     }
 
-header, footer {
+header{
         display: block;
         margin: 4px;
         padding: 5px;
         /*min-height: 100px;*/
-        border: 1px solid #eebb55;
+        /*border: 1px solid #eebb55;*/
         border-radius: 0pt;
         background: #ffeebb;
     }
@@ -56,40 +59,89 @@ header, footer {
         margin: 1px;
         padding: 5px;
         min-height: 3em;
-        border: 1px solid #eebb55;
+        /*border: 1px solid #eebb55;*/
         border-radius: 0pt;
-        background: #ffeebb;
+        background: #c0dfd9;
         text-align: center;
     }
 nav > a:link {
-        color: red;
+        color: #3b3a36;
         text-decoration: none;
 }
 nav > a:visited {
-        color: red;
+        color: #3b3a36;
         text-decoration: none;
 }
 nav > a:hover {
-        color: red;
+        color: #e9ece5;
         text-decoration: none;
 }
 nav > a:active {
-        color: red;
+        color: #3b3a36;
         text-decoration: none;
 }
 article > a:link {
-        color: red;
+        color: #3b3a36;
         text-decoration: none;
 }
 article > a:visited {
-        color: red;
+        color: #3b3a36;
         text-decoration: none;
 }
 article > a:hover {
-        color: red;
+        color: #b3c2bf;
         text-decoration: none;
 }
 article > a:active {
-        color: red;
+        color: #3b3a36;
         text-decoration: none;
+}
+.wrap {
+      margin: 0 auto;
+}
+.sitetitle {
+      text-align: center;
+
+}
+h1,h2,h3,h4 {
+  font-family: "Myriad Pro", clean, sans-serif;
+
+}
+p {
+  font-family: "Myriad Pro", clean, sans-serif;
+  max-width: 80%;
+  display: inline-block;
+  text-align: left;
+}
+
+main > nav > a {
+  font-family: "Myraid Pro", clean, sans-serif;
+}
+
+.returntoTop {
+  font-family: "Myraid Pro", clean, sans-serif;
+}
+
+.imagewrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centeringwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+        display: block;
+        margin: 4px;
+        padding: 5px;
+        /*min-height: 100px;*/
+        /*border: 1px solid #eebb55;*/
+        border-radius: 0pt;
+        background: #3b3a36;
+    }
+footer > p {
+    color: #e9ece5;
 }
